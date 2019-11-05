@@ -25,18 +25,34 @@ footer {
 
 section {
     min-height: calc(100vh - 220px);
-}
-
-.pin {
     text-align: center;
+    font-size: 2em;
 }
 
-/*------------------------------------------------------------------------maps*/
-#eu-map {
-    min-height: 360px;
+#cityName {
+    font-family: Alegreya Sans SC, open-sans;
+    border: #64CAEA solid 2px;
+    border-radius: 5px;
+    color: #8AB1BD;
+
 }
 
-#na-map {
-    min-height: 360px;
+#searchbtn {
+    font-family: Alegreya Sans SC, open-sans;
+    border-radius: 5px;
+    background-color: #64CAEA;
+    border: none;
+    color: #64858F;
 }
 
+/*----------------------------------------------------------------------header*/
+.title {
+    padding: 20px 10px 10px;
+    font-family: Alegreya Sans SC, open-sans;
+}
+
+.tagline {
+    padding-left: 10px;
+    padding-bottom: 20px;
+    font-size: 1.5em;
+}
