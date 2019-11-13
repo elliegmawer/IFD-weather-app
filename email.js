@@ -9,4 +9,5 @@ emailjs.send("gmail", "developer_weather_app", {
     }, function(error) {
        console.log("FAILED...", error);
     });
-    }
+    return false;  // To block from loading a new page
+}
