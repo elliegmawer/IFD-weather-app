@@ -11,3 +11,9 @@ emailjs.send("gmail", "developer_weather_app", {
     });
    return false;  // To block from loading a new page
 }
+
+//modal
+$("#emailform").on('submit', function(e){
+  $('#myModal').modal('show');
+  //e.preventDefault();
+});
