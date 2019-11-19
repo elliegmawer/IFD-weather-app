@@ -15,5 +15,5 @@ emailjs.send("gmail", "developer_weather_app", {
 //modal
 $("#emailform").on('submit', function(e){
   $('#myModal').modal('show');
-  //e.preventDefault();
+  e.preventDefault();
 });
