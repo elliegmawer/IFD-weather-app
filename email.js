@@ -17,3 +17,8 @@ $("#emailform").on('submit', function(e){
   $('#myModal').modal('show');
   e.preventDefault();
 });
+
+//clear form
+function clearForm() {
+  document.getElementById("emailform").reset();
+}
