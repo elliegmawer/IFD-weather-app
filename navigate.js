@@ -14,7 +14,6 @@ function getContent(fragmentId, callback){
   fetchFile( fragmentId + ".html", callback );
 }
 
-// // Sets the "active" class on the active navigation link.
 // function setActiveLink(fragmentId){
 //   var navbarDiv = document.getElementById("navbar"),
 //       links = navbarDiv.children,
@@ -40,7 +39,6 @@ function navigate(){
     contentDiv.innerHTML = content;
   });
 
-//   // Toggle the "active" class on the link currently navigated to.
 //   setActiveLink(fragmentId);
 }
 
