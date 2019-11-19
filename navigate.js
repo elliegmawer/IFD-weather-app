@@ -46,7 +46,7 @@ function navigate(){
 
 if(!location.hash) {
 
-  location.hash = "#test";
+  location.hash = "#home";
 }
 
 navigate();
