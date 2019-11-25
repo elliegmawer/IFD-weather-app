@@ -12,11 +12,16 @@
 		integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 	<link rel="stylesheet" href="style.css" type="text/css" />
 
-
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js"
 		integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 	<script type="text/javascript" src="weather.js"></script>
 
+	<script>
+		        $('.navbar-nav>li>a').on('click', function () {
+            $('.navBarCollapse').collapse('hide');
+        });
+    
+	</script>
 
 	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.4.0/dist/email.min.js"></script>
 	<script type="text/javascript">
@@ -30,25 +35,25 @@
 </head>
 
 <body>
-
 	<header>
 		<!-- Nav Bar -->
 		<div=class "row">
 			<div class="pos-f-t">
-				<nav class="navbar navbar-dark bg-dark" style="background-image: url(assets/cloudbanner.jpg)">
+				<nav class="navbar navbar-dark bg-dark">
+					<!-- style="background-image: url(assets/cloudbanner.jpg)"  -->
 					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
 				</nav>
-				<div class="collapse" id="navbarToggleExternalContent">
+				<div class="collapse navBarCollapse" id="navbarToggleExternalContent">
 					<div class="bg-dark p-4">
 						<div class="nav">
-							<ul class="nav flex-column">
+							<ul class="nav navbar-nav flex-column">
 								<li class="nav-item">
-									<a class="nav-link collapse" href="#home">Home</a>
+									<a class="nav-link" href="#home">Home</a>
 								</li>
 								<li class="nav-item">
-									<a class="nav-link collapse" href="#contact">Contact</a>
+									<a class="nav-link" href="#contact">Contact</a>
 								</li>
 							</ul>
 						</div>
@@ -56,14 +61,22 @@
 				</div>
 			</div>
 			</div>
-			<!-- Title -->
-			<row>
-				<div class="title">
-					<h1 class="title">Do you like Pina Coladas?</h1>
-					<p class="tagline">Don't get caught in the rain <i class="fas fa-umbrella"></i></p>
-				</div>
-			</row>
+
 	</header>
+
+	<!-- JS Slideshow -->
+	<ul id="slides">
+		<li class="slide showing"></li>
+		<li class="slide"></li>
+		<li class="slide"></li>
+		<li class="slide"></li>
+	</ul>
+
+	<!-- Title -->
+	<div class="title">
+		<h1 class="title">Do you like Pina Coladas?</h1>
+		<p class="tagline">Don't get caught in the rain <i class="fas fa-umbrella"></i></p>
+	</div>
 
 	<div id="content"></div>
 
@@ -94,9 +107,16 @@
 		integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
 	</script>
 
+	<script src="background.js"></script>
 	<script src="navigate.js"></script>
 	<script src="email.js"></script>
 
+	<script>
+		        $('.navbar-nav>li>a').on('click', function () {
+            $('.navBarCollapse').collapse('hide');
+        });
+    
+	</script>
 </body>
 
 </html>
