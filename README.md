@@ -6,7 +6,7 @@
 
 ***
 
-# Powder to the People #flakenews
+# Do you like Pina Coladas?
 ## UX
 ### Strategy
 #### Strategy Tradeoffs
@@ -71,7 +71,7 @@ The following free sources have been used for certain elements and features on t
 
 * 
 
-* 
+
 
 * 
 
