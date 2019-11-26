@@ -9,6 +9,7 @@ emailjs.send("gmail", "developer_weather_app", {
     }, function(error) {
        console.log("FAILED...", error);
     });
+    document.getElementById("emailform").reset();
    return false;  // To block from loading a new page
 }
 
@@ -18,7 +19,8 @@ $("#emailform").on('submit', function(e){
   e.preventDefault();
 });
 
-//clear form
-function clearForm() {
-  document.getElementById("emailform").reset();
-}
+
+// //clear form
+// function clearForm() {
+//   document.getElementById("emailform").reset();
+// }
