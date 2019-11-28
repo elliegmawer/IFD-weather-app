@@ -75,7 +75,7 @@ section {
 button[type="submit"] {
     margin-top: 15px;
     margin-bottom: 20px;
-    background-color: #b3cccc;
+    background-color: #126b67;
     color: #fafafa;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
@@ -84,7 +84,7 @@ button[type="submit"] {
 }
 
 button[type="submit"]:hover {
-    background: #ff6600;
+    background: #12db98;
     color: #fafafa;
 }
 
@@ -94,7 +94,7 @@ button[type="submit"]:hover {
 
 #slides{
     position: relative;
-    height: 180px;
+    height: 300px;
     padding: 0px;
     margin: 0px;
     list-style-type: none;

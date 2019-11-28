@@ -15,3 +15,7 @@ function myWeather() {
         $('#getWeather').append(cityName + " " + country + " " + temp + "ºC" + " " + description);
     }
 };
+
+function clearCity(){
+    document.getElementById("cityName").value=""
+}
