@@ -1,3 +1,11 @@
+var input = document.getElementById("cityName");
+input.addEventListener("keyup", function (event) {
+    if (event.keyCode === 13) {
+        event.preventDefault();
+        document.getElementById("searchbtn").click();
+    }
+});
+
 function myWeather() {
     $("#getWeather").html("");
     var cityName = $("#cityName").val();
@@ -16,6 +24,6 @@ function myWeather() {
     }
 };
 
-function clearCity(){
-    document.getElementById("cityName").value=""
+function clearCity() {
+    document.getElementById("cityName").value = ""
 }
