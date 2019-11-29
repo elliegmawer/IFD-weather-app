@@ -35,6 +35,10 @@ footer {
 
 }
 
+.weatherinput {
+    text-align: center;
+}
+
 #searchbtn {
     font-family: Alegreya Sans SC, open-sans;
     border-radius: 5px;
@@ -66,6 +70,8 @@ footer {
 button[type="submit"] {
     margin-top: 15px;
     margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
     background-color: #126b67;
     color: #fafafa;
     transition: all 0.35s ease-in-out;

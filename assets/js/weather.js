@@ -1,10 +1,13 @@
-var input = document.getElementById("cityName");
+var input;
+function setup (){
+input = document.getElementById("cityName");
 input.addEventListener("keyup", function (event) {
     if (event.keyCode === 13) {
         event.preventDefault();
         document.getElementById("searchbtn").click();
     }
 });
+}
 
 function myWeather() {
     $("#getWeather").html("");
