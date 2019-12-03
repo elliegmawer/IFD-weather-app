@@ -1,4 +1,25 @@
-@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:100,200,300,400,500,600,700|Open+Sans:100,200,300,400,500,600,700|&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:100,200,300,400,500,600,700|Lato:100,200,300,400,500,600,700|&display=swap');
+
+/*----------------------------------------------------------------------universal*/
+
+.nav-link {
+    text-decoration: none;
+    color: #8AB1BD;
+}
+
+.nav-link:hover{
+    color: #64CAEA;
+}
+
+.githubLink {
+    text-decoration: none;
+    color: black;
+}
+
+.githubLink:hover {
+    text-decoration: none;
+    color: #8AB1BD;
+}
 
 /*----------------------------------------------------------------------footer*/
 
@@ -21,7 +42,7 @@ footer {
     text-align: right;
 }
 
-/*---------------------------------------------------------------------section*/
+/*---------------------------------------------------------------------content*/
 
 #content {
     min-height: calc(100vh - 314px);
@@ -29,6 +50,7 @@ footer {
 
 #cityName {
     font-family: Alegreya Sans SC, open-sans;
+    font-size: 2em;
     border: #64CAEA solid 2px;
     border-radius: 5px;
     color: #8AB1BD;
@@ -41,10 +63,28 @@ footer {
 
 #searchbtn {
     font-family: Alegreya Sans SC, open-sans;
+    font-size: 2em;
     border-radius: 5px;
     background-color: #64CAEA;
     border: none;
+    margin: .5em;
     color: #64858F;
+     transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+#getWeather {
+    padding: 1em;
+    font-family: Alegreya Sans SC, open-sans;
+    font-size: 2.5em;
+}
+
+
+#searchbtn:hover {
+    background: #64858F;
+    color: #64CAEA;
 }
 
 /*----------------------------------------------------------------------header*/
@@ -72,8 +112,9 @@ button[type="submit"] {
     margin-bottom: 20px;
     margin-left: auto;
     margin-right: auto;
-    background-color: #126b67;
-    color: #fafafa;
+    background-color: #64CAEA;
+    color: #64858F;
+    border: none;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
@@ -81,8 +122,8 @@ button[type="submit"] {
 }
 
 button[type="submit"]:hover {
-    background: #12db98;
-    color: #fafafa;
+    background: #64858F;
+    color: #64CAEA;
 }
 
 
@@ -138,3 +179,11 @@ button[type="submit"]:hover {
 }
 
 Resources1×0.5×0.25×Rerun
+
+/*---------------------------------------------------------------------modal*/
+
+.modal-text{
+    font-family: Alegreya Sans SC, open-sans;
+    font-size: 3em;
+    text-align: center;
+}
