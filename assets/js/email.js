@@ -19,8 +19,3 @@ $("#emailform").on('submit', function(e){
   e.preventDefault();
 });
 
-
-// //clear form
-// function clearForm() {
-//   document.getElementById("emailform").reset();
-// }

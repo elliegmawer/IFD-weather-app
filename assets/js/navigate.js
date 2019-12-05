@@ -14,20 +14,6 @@ function getContent(fragmentId, callback){
   fetchFile( fragmentId + ".html", callback );
 }
 
-// function setActiveLink(fragmentId){
-//   var navbarDiv = document.getElementById("navbar"),
-//       links = navbarDiv.children,
-//       i, link, pageName;
-//   for(i = 0; i < links.length; i++){
-//     link = links[i];
-//     pageName = link.getAttribute("href").substr(1);
-//     if(pageName === fragmentId) {
-//       link.setAttribute("class", "active");
-//     } else {
-//       link.removeAttribute("class");
-//     }
-//   }
-// }
 
 function navigate(){
 
@@ -39,7 +25,7 @@ function navigate(){
     contentDiv.innerHTML = content;
   });
 
-//   setActiveLink(fragmentId);
+
 }
 
 if(!location.hash) {
@@ -49,4 +35,4 @@ if(!location.hash) {
 
 navigate();
 
-window.addEventListener("hashchange", navigate)
+window.addEventListener("hashchange", navigate);
