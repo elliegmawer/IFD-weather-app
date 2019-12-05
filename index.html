@@ -14,7 +14,7 @@
 
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js"
 		integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-	<script type="text/javascript" src="assets/js/weather.js"></script>
+	<script src="assets/js/weather.js"></script>
 
 	<script>
         $('.navbar-nav>li>a').on('click', function () {
@@ -22,8 +22,8 @@
         });
 	</script>
 
-	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.4.0/dist/email.min.js"></script>
-	<script type="text/javascript">
+	<script src="https://cdn.jsdelivr.net/npm/emailjs-com@2.4.0/dist/email.min.js"></script>
+	<script> //initiate emailJS service
 		(function() {
       emailjs.init("user_nXfXVMc50pAA1j6FYk9rW");
     }());
@@ -68,8 +68,10 @@
 		<li class="slide"></li>
 	</ul>
 
+    <!-- Dynamic content loaded here -->
 	<div id="content"></div>
 
+    <!-- Modal html, triggered on sending email from contact.html -->
 	<div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel"
 		aria-hidden="true">
 		<div class="modal-dialog modal-sm">
@@ -79,6 +81,7 @@
 		</div>
 	</div>
 
+    <!-- footer -->
 	<footer class="footer">
 		<div class="container-fluid">
 			<div class="row justify-content-end">
@@ -105,7 +108,6 @@
         $('.navbar-nav>li>a').on('click', function () {
         $('.navBarCollapse').collapse('hide');
         });
-    
 	</script>
 
     
