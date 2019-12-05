@@ -193,7 +193,9 @@ The following free sources have been used for inspiration and documentation for 
  
 
 ## Acknowledgements 
+ 
 
+I decided to create an app that I would use each day myself, adding in features to ensure the project criteria were met. My mentor Brian inspired me to create a single page application; the dynamic navigation is something I had not considered before but wanted to explore after noticing how many websites use this kind of technology for example Gmail.com. 
  
  
  
