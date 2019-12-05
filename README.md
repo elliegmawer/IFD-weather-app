@@ -113,6 +113,28 @@ The HTML contact form is supported by the emailJS service as demomstrated in the
 
 ## Testing 
 
+Testing has been consistent throughout the development of this site; with every new feature, style or new content being run using the GitPod preview as well as using Chrome Developer Tools to isolate certain elements of my code. Chrome Developer Tools have also been used to view each page on responsive screen sizes as well as the predetermined sizes such as the iPhone 6, a Galaxy S5 and an iPad pro. 
+
+All of the HTML and CSS has been run through online validators to catch any syntactical errors. 
+
+The Javascript has been ‘beautified’ by a free online source to make sure it is readable and indented correctly. 
+
+The developer (myself) and other individuals have completed the following manual tests:
+
+| Manual Test                                                                          | Result     |
+|--------------------------------------------------------------------------------------|------------|
+| Navbar expands and collapses on click of the burger icon and nav-links               | Successful |
+| Nav-links load correct HTML partial content when clicked                             | Successful |
+| External links take user to correct target in a new tab                              | Successful |
+| Text appears correctly & legibly in input and form elements                          | Successful |
+| Text clears in weather input when user clicks to enter another location              | Successful |
+| Email is sent to developer email address when user submits form                      | Successful |
+| Error warning appears when user does not enter a valid email address                 | Successful |
+| All form inputs must be completed to send email                                      | Successful |
+| App shows all relevant content on all devices and viewport sizes in Chrome Dev Tools | Successful |
+| Weather input element returns correct data for user chosen location                  | Successful |
+| JSON data printed to console when openWeather API is called                          | Successful |
+| Success code 200 printed to console when email has sent successfully                 | Successful |s
  
 ## Deployment 
 
