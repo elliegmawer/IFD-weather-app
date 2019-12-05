@@ -1,3 +1,5 @@
+//load appropriate partial html content when user clicks on nav links and triggers hashchange
+
 function fetchFile(path, callback) {
 
  var request = new XMLHttpRequest();
@@ -30,9 +32,9 @@ function navigate() {
 
 if (!location.hash) {
 
- location.hash = "#home";
+ location.hash = "#home"; //default to home.html content
 }
 
 navigate();
 
-window.addEventListener("hashchange", navigate);
+window.addEventListener("hashchange", navigate); //load appropriate partial html content when user 'navigates' and triggers hashchange

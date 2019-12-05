@@ -1,3 +1,5 @@
+//function to enable user to get weather results hitting enter key as well as 'onclick'
+
 var input;
 
 function setup() {
@@ -9,6 +11,8 @@ function setup() {
   }
  });
 }
+
+//AJAX request to openWeather API
 
 function myWeather() {
  $("#getWeather").html("");
