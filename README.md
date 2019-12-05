@@ -58,8 +58,6 @@ Step-by-step guide to using the app:
 
 #### Site Map 
 
-![site map](/assets/readme-images/readmesitemap.png)  
-
 The Home page is the landing page for the website. It will contain a search box for the user to enter their chosen city location, a button to complete the search function, and then display the results in the space below the input. 
 
 The Contact page will allow users to complete a form with their name, email address and a message or project idea to share with the site owner/developer. 
@@ -72,11 +70,11 @@ The footer on each page will contain the copyright declaration and a link to the
 
 Initial app ideas  
 
-INSERT PEN AND PAPER WIRE FRAMES 
+![Initial wireframes](assets/readme-imgs/initialwireframe.jpg)
 
 Revised app ideas 
 
-INSERT PAINT WIRE FRAMES 
+![Revised wireframes](assets/readme-imgs/revisedwireframe.png)
 
 #### Interaction Design  
 
@@ -84,9 +82,9 @@ To ensure a consistent design throughout the site, I will use a colour board to 
 
 #### Information Architecture  
 
-App structure image 
+![App structure](/assets/readme-imgs/appstructure.png)
 
-File structure image 
+![App structure](/assets/readme-imgs/filestructure.png)
 
 ### Surface 
 
@@ -134,7 +132,15 @@ The developer (myself) and other individuals have completed the following manual
 | App shows all relevant content on all devices and viewport sizes in Chrome Dev Tools | Successful |
 | Weather input element returns correct data for user chosen location                  | Successful |
 | JSON data printed to console when openWeather API is called                          | Successful |
-| Success code 200 printed to console when email has sent successfully                 | Successful |s
+| Success code 200 printed to console when email has sent successfully                 | Successful |
+
+###EmailJS Test
+
+![Completed email form](assets/readme-imgs/emailform.png)
+
+![Form submitted](assets/readme-imgs/formsent.png)
+
+![Email received successfully](assets/readme-imgs/emailsuccess.png)
  
 ## Deployment 
 
