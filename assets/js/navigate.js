@@ -1,36 +1,36 @@
-function fetchFile(path, callback){
+function fetchFile(path, callback) {
 
-  var request = new XMLHttpRequest();
+ var request = new XMLHttpRequest();
 
-  request.onload = function () {
-    callback(request.responseText);
-  };
+ request.onload = function() {
+  callback(request.responseText);
+ };
 
-  request.open("GET", path);
-  request.send(null);
+ request.open("GET", path);
+ request.send(null);
 }
 
-function getContent(fragmentId, callback){
-  fetchFile( fragmentId + ".html", callback );
+function getContent(fragmentId, callback) {
+ fetchFile(fragmentId + ".html", callback);
 }
 
 
-function navigate(){
+function navigate() {
 
-  var contentDiv = document.getElementById("content"),
+ var contentDiv = document.getElementById("content"),
 
-      fragmentId = location.hash.substr(1);
+  fragmentId = location.hash.substr(1);
 
-  getContent(fragmentId, function (content) {
-    contentDiv.innerHTML = content;
-  });
+ getContent(fragmentId, function(content) {
+  contentDiv.innerHTML = content;
+ });
 
 
 }
 
-if(!location.hash) {
+if (!location.hash) {
 
-  location.hash = "#home";
+ location.hash = "#home";
 }
 
 navigate();

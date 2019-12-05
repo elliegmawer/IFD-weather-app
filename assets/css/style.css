@@ -180,10 +180,3 @@ button[type="submit"]:hover {
 
 Resources1×0.5×0.25×Rerun
 
-/*---------------------------------------------------------------------modal*/
-
-h3, .modal-text {
-    font-family: Alegreya Sans SC, open-sans;
-    font-size: 3em;
-    text-align: center;
-}
