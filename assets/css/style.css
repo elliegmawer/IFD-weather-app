@@ -27,7 +27,7 @@ footer {
     max-height: 60px;
     margin-top: 10px;
     padding: 20px 10px 20px 10px;
-    font-family: "Open Sans", sans-serif;
+    font-family: Lato, open-sans;
     font-size: 14px;
     font-weight: 300;
     color: #000;
@@ -182,7 +182,7 @@ Resources1×0.5×0.25×Rerun
 
 /*---------------------------------------------------------------------modal*/
 
-.modal-text{
+h3, .modal-text {
     font-family: Alegreya Sans SC, open-sans;
     font-size: 3em;
     text-align: center;
